@@ -168,7 +168,7 @@ foreach ($filechild in $files)
 
 
 #Download WallPaper from GitHub
-$LockScreenURL = "https://github.com/gwblok/garytown/raw/master/OSD/CloudOSD/lockscreen.jpg"
+$LockScreenURL = "https://github.com/CO88447/CM-OSD/blob/main/OSD/CloudOSD/lockscreen.jpg"
 Invoke-WebRequest -UseBasicParsing -Uri $LockScreenURL -OutFile "$env:TEMP\lockscreen.jpg"
 
 #Copy the 2 files into place
